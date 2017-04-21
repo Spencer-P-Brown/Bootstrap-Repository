@@ -1,0 +1,141 @@
+*{
+	box-sizing: border-box;
+	margin:0px auto;
+}
+
+body{
+	background-image: url("images/bg.png");
+	padding-top: 70px; 
+}
+
+.header-container{
+	max-width:970px;
+}
+
+#navigation{
+}
+
+#topName{
+	background-color: #4aaaa5;
+	font-family: "georgia", times, "times new roman", serif;
+	font-size: 30px; 
+	font-weight: bold;
+	color: white;
+}
+
+#portfolio{
+	border-color:#ccc;
+	border: 0px 1px 0px 1px ;
+}
+
+#about{
+	border-bottom: 1px solid #ccc
+}
+
+h1{
+	color:#4aaaa5;
+	font-weight: bold;
+	font-size: 30px;
+	font-family:"georgia", times, "times new roman", serif;
+}
+#content{
+	background-color: white;
+	margin:0;
+}
+
+#image{
+	margin-right: 15px;
+}
+
+#connect{
+	margin: 5px;
+	text-align:center;
+}
+
+#connect-text{
+	color:#4aaaa5;
+	font-size: 20px;
+	font-weight: bold;
+	font-family:"georgia", times, "times new roman", serif;
+}
+
+.social{
+	width: 60px;
+	height: 60px;
+}
+
+#linked{
+	margin: 0px 10px;
+}
+
+.work {
+	position: relative;
+  	float: left;
+  	width: 100%;
+ 	margin: 20px 0 25px;
+ 	overflow: auto;
+}
+
+.work:nth-child(even) {
+ 	margin-right: 40px;
+}
+
+.work  {
+ 	width: 100%;
+ 	border: 0 none;
+ 	opacity: 0.8;
+}
+
+.img{
+	width:100%;
+	margin:5px 0px;
+
+}
+
+.posRel{
+	position:relative;
+}
+.textWrap{
+	position:relative;
+}
+.picTitle{
+	font-size: 15px;
+ 	position: absolute;
+ 	bottom: 10px;
+ 	width: 100%;
+ 	padding: 5px;
+ 	margin-bottom: 0;
+ 	font-weight: 200;
+ 	line-height: 20px;
+ 	color: #fff;
+ 	text-align: center;
+ 	background: #4aaaa5;
+ 	border-bottom: 0;
+}
+
+label{
+	color:#777;
+}
+
+.btn-primary{
+	color:#fff;
+	background-color: #4aaaa5;
+	border-color:#ccc;
+}
+
+#submit{
+	margin-bottom:5px;
+}
+
+#footer{
+	text-align: center;
+	margin-top: 60px;
+
+}
+
+#copyright{
+	border-top: 5px solid #4aaaa5;
+	padding-top:10px;
+	background-color: #666666;
+	border-bottom: 0px;
+}
